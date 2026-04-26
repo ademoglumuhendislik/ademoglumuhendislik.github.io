@@ -7,22 +7,28 @@
   <meta name="description" content="Ankara'da endüstriyel mekanik tesisat hizmetleri. Yangın tesisatı, kazan dairesi, buhar jeneratörü, doğalgaz hatları. Askeri kurum ve bakanlık referanslı. Ücretsiz teknik değerlendirme için arayın.">
   <meta name="keywords" content="ankara mekanik tesisat, yangın tesisatı ankara, kazan dairesi kurulumu, buhar jeneratörü, doğalgaz tesisatı ankara, endüstriyel tesisat, acil tesisat ankara">
   <meta name="theme-color" content="#10233d">
-  <meta property="og:title" content="Ademoğlu Mühendislik | Ankara Mekanik Tesisat">
-  <meta property="og:description" content="Fabrikalar ve sanayi tesisleri için kurumsal mekanik tesisat çözümleri.">
-  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://ademoglumuhendislik.com.tr">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ademoglumuhendislik.com.tr">
+  <meta property="og:title" content="Ankara Mekanik Tesisat Firması | Ademoğlu Mühendislik">
+  <meta property="og:description" content="Ankara'da endüstriyel mekanik tesisat hizmetleri. Yangın tesisatı, kazan dairesi, buhar jeneratörü, doğalgaz hatları. Askeri kurum ve bakanlık referanslı. Ücretsiz teknik değerlendirme için arayın.">
+  <meta property="og:image" content="https://ademoglumuhendislik.com.tr/images/ademoglu-son-logo-jpg.jpg">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Ademoğlu Mühendislik",
-    "description": "Ankara'da endüstriyel mekanik tesisat hizmetleri. Yangın tesisatı, kazan dairesi, buhar jeneratörü, doğalgaz hatları.",
+    "legalName": "Ademoğlu Mimarlık Mühendislik İnşaat ve Tesisat Ltd. Şti.",
+    "description": "Ankara'da endüstriyel mekanik tesisat hizmetleri. Yangın tesisatı, kazan dairesi kurulumu, buhar jeneratörü, doğalgaz hatları. Askeri kurum ve bakanlık referanslı.",
     "url": "https://ademoglumuhendislik.com.tr",
     "telephone": "+905330145775",
     "email": "info@ademoglumuhendislik.com.tr",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "Ankara",
       "addressLocality": "Ankara",
+      "addressRegion": "Ankara",
       "addressCountry": "TR"
     },
     "geo": {
@@ -33,6 +39,16 @@
     "areaServed": {
       "@type": "City",
       "name": "Ankara"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Mekanik Tesisat Hizmetleri",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Yangın Tesisatı ve Güvenlik Sistemleri"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Kazan Dairesi Kurulumu ve Isıtma Sistemleri"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Buhar ve Isı Transfer Sistemleri"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Endüstriyel Tesisat ve Altyapı Çözümleri"}}
+      ]
     },
     "priceRange": "₺₺₺",
     "openingHours": "Mo-Su 08:00-20:00",
@@ -180,16 +196,25 @@
     }
 
     .brand-mark {
+      width: 56px;
+      height: 56px;
+      border-radius: 18px;
       flex-shrink: 0;
-      display: flex;
-      align-items: center;
+      background:
+        linear-gradient(145deg, rgba(199, 147, 52, 0.28), rgba(199, 147, 52, 0.08)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.02));
+      border: 1px solid rgba(199, 147, 52, 0.35);
+      display: grid;
+      place-items: center;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+      overflow: hidden;
     }
 
     .brand-mark img {
-      height: 44px;
-      width: auto;
-      mix-blend-mode: screen;
-      filter: brightness(1.1);
+      width: 56px;
+      height: 56px;
+      object-fit: cover;
+      border-radius: 18px;
     }
 
     .brand-text {
@@ -351,11 +376,17 @@
       display: block;
     }
 
-    .hero-copy p {
+    .hero-copy p,
+    .hero-copy p.hero-lead {
       margin-top: 1.35rem;
       max-width: 62ch;
       color: rgba(236, 243, 255, 0.78);
       font-size: 1.02rem;
+    }
+
+    .hero-copy p.hero-lead strong {
+      color: var(--gold-soft);
+      font-weight: 700;
     }
 
     .alert-card {
@@ -646,11 +677,13 @@
       flex-shrink: 0;
     }
 
+    .service-title h2,
     .service-title h3 {
       font-size: 1.08rem;
       color: var(--surface-dark);
       line-height: 1.2;
       margin-bottom: 0.35rem;
+      font-weight: 700;
     }
 
     .service-title p {
@@ -1411,8 +1444,8 @@
         <div class="container hero-grid">
           <div class="hero-copy reveal">
             <div class="eyebrow">Ankara · Endüstriyel Mekanik Tesisat · Kurumsal Referanslı</div>
-            <h1>Fabrikanızın tesisat sorunu <span>üretimi durdurmasın.</span></h1>
-            <p>Yangın tesisatı, kazan dairesi, buhar jeneratörü ve doğalgaz sistemlerinde proje, uygulama ve bakım hizmeti sunuyoruz. Askeri kurumlar, kamu tesisleri ve sanayi yapılarında edinilmiş saha deneyimiyle hareket ediyoruz.</p>
+            <h1>Ankara mekanik tesisat ve endüstriyel mühendislik çözümleri</h1>
+            <p class="hero-lead">Fabrikalar, siteler ve kamu yapıları için <strong>kazan dairesi kurulumu</strong>, <strong>yangın tesisatı</strong>, buhar sistemleri ve <strong>endüstriyel tesisat</strong> hizmetlerinde 20+ yıllık saha deneyimi. Askeri kurumlar ve bakanlık referanslı, tek elden teknik sorumluluk.</p>
 
             <div class="alert-card">
               <div aria-hidden="true">⚠️</div>
@@ -1423,7 +1456,7 @@
             </div>
 
             <div class="hero-actions">
-              <a class="btn btn-primary" href="tel:+905330145775">Hemen Ara · Ücretsiz Teknik Değerlendirme</a>
+              <a class="btn btn-primary" href="#iletisim">Ücretsiz Teklif Al</a>
               <a class="btn btn-whatsapp" href="https://wa.me/905330145775?text=Merhaba%2C%20mekanik%20tesisat%20hizmetleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noreferrer">WhatsApp ile Yazın</a>
               <a class="btn btn-secondary" href="#referanslar">Referansları İnceleyin</a>
             </div>
@@ -1516,8 +1549,8 @@
         <div class="container">
           <div class="section-head center reveal">
             <span class="mini">Hizmet Alanları</span>
-            <h2>Sanayi tesisleri için mühendislik tabanlı mekanik çözümler</h2>
-            <p>Yangın tesisatından kazan dairesine, buhar hatlarından basınçlı hava sistemlerine kadar proje, uygulama ve bakım süreçlerini tek sayfada netleştirdik.</p>
+            <h2>Ankara'da endüstriyel tesisat ve mekanik mühendislik hizmetleri</h2>
+            <p>Yangın tesisatından kazan dairesi kurulumuna, buhar hatlarından basınçlı hava sistemlerine kadar proje, uygulama ve bakım süreçlerini tek çatı altında sunuyoruz.</p>
           </div>
 
           <div class="services-grid">
@@ -1525,8 +1558,8 @@
               <div class="service-top">
                 <div class="service-icon">🔥</div>
                 <div class="service-title">
-                  <h3>Yangın Tesisat Sistemleri</h3>
-                  <p>Yasal gerekliliklere uygun tasarım ve uygulama desteği.</p>
+                  <h2>Yangın Tesisatı ve Güvenlik Sistemleri</h2>
+                  <p>Ankara yangın tesisatı kurulumunda yasal gereklilik ve uygulama desteği.</p>
                 </div>
                 <div class="pill">Yasal Zorunlu</div>
               </div>
@@ -1543,8 +1576,8 @@
               <div class="service-top">
                 <div class="service-icon">⚙️</div>
                 <div class="service-title">
-                  <h3>Kazan Dairesi Sistemleri</h3>
-                  <p>Fabrika ve büyük yapılar için güvenli ve kontrollü ısıtma altyapısı.</p>
+                  <h2>Kazan Dairesi Kurulumu ve Isıtma Sistemleri</h2>
+                  <p>Fabrika ve büyük yapılar için güvenli, kontrollü endüstriyel ısıtma altyapısı.</p>
                 </div>
                 <div class="pill">Fabrika Odaklı</div>
               </div>
@@ -1554,15 +1587,15 @@
                 <li><span class="service-dot"></span><span>Endüstriyel radyan ısıtıcı çözümleri</span></li>
                 <li><span class="service-dot"></span><span>Bakım, arıza müdahalesi ve verimlilik iyileştirme</span></li>
               </ul>
-              <a class="service-link" href="#iletisim">Ücretsiz saha değerlendirmesi isteyin →</a>
+              <a class="service-link" href="#iletisim">Ücretsiz teklif al →</a>
             </article>
 
             <article class="service-card priority reveal">
               <div class="service-top">
                 <div class="service-icon">💨</div>
                 <div class="service-title">
-                  <h3>Buhar Sistemleri</h3>
-                  <p>Endüstriyel hatlar için emniyetli dağıtım ve devreye alma.</p>
+                  <h2>Buhar ve Isı Transfer Sistemleri</h2>
+                  <p>Endüstriyel tesisat kapsamında emniyetli buhar dağıtımı ve devreye alma.</p>
                 </div>
                 <div class="pill">Endüstriyel</div>
               </div>
@@ -1579,8 +1612,8 @@
               <div class="service-top">
                 <div class="service-icon">🔵</div>
                 <div class="service-title">
-                  <h3>Doğalgaz Hatları</h3>
-                  <p>Tasarım, montaj, test ve devreye alma süreçleri.</p>
+                  <h2>Doğalgaz Hatları ve Endüstriyel Tesisat</h2>
+                  <p>Tasarım, montaj, test ve devreye alma; Ankara mekanik tesisat uzmanlığı.</p>
                 </div>
                 <div class="pill">Sertifikalı</div>
               </div>
@@ -1742,7 +1775,7 @@
           <div class="section-head center reveal">
             <span class="mini">Referanslar</span>
             <h2>Kamu, askeri ve özel sektörde tamamlanmış saha deneyimi</h2>
-            <p>Güvenilirlik, zamanında uygulama ve teknik sorumluluk beklentisi yüksek projelerde çalışmış bir ekip yapısına sahibiz.</p>
+            <p>Endüstriyel tesisat ve ankara mekanik tesisat alanında güvenilirlik, zamanında uygulama ve teknik sorumluluk beklentisi yüksek projelerde çalışmış bir ekip yapısına sahibiz.</p>
           </div>
 
           <div class="reference-banner reveal">
@@ -1883,8 +1916,8 @@
         <div class="container">
           <div class="section-head center reveal">
             <span class="mini">İletişim</span>
-            <h2>Ücretsiz teknik değerlendirme için bize ulaşın</h2>
-            <p>Tesisinizi yerinde inceleyip ihtiyaca uygun teknik rapor ve teklif sürecini hızla başlatıyoruz.</p>
+            <h2>Ücretsiz teklif alın — aynı gün bize ulaşın</h2>
+            <p>Ankara mekanik tesisat ihtiyacınız için tesisinizi yerinde inceleyip ihtiyaca uygun teknik rapor ve teklif sürecini hızla başlatıyoruz.</p>
           </div>
 
           <div class="contact-wrap">
